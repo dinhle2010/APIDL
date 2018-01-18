@@ -1,0 +1,10 @@
+D:\Research\APIDL\APIDL\bin\Any CPU\Release\netcoreapp2.0\APIDL.deps.json
+D:\Research\APIDL\APIDL\bin\Any CPU\Release\netcoreapp2.0\APIDL.runtimeconfig.json
+D:\Research\APIDL\APIDL\bin\Any CPU\Release\netcoreapp2.0\APIDL.runtimeconfig.dev.json
+D:\Research\APIDL\APIDL\bin\Any CPU\Release\netcoreapp2.0\APIDL.dll
+D:\Research\APIDL\APIDL\bin\Any CPU\Release\netcoreapp2.0\APIDL.pdb
+D:\Research\APIDL\APIDL\obj\Any CPU\Release\netcoreapp2.0\APIDL.csproj.CoreCompileInputs.cache
+D:\Research\APIDL\APIDL\obj\Any CPU\Release\netcoreapp2.0\APIDL.AssemblyInfoInputs.cache
+D:\Research\APIDL\APIDL\obj\Any CPU\Release\netcoreapp2.0\APIDL.AssemblyInfo.cs
+D:\Research\APIDL\APIDL\obj\Any CPU\Release\netcoreapp2.0\APIDL.dll
+D:\Research\APIDL\APIDL\obj\Any CPU\Release\netcoreapp2.0\APIDL.pdb
