@@ -17,7 +17,7 @@ namespace APIDL.Controllers
             try
             {
                 HttpClient _client = new HttpClient();
-                using (var result = _client.PostAsync(EndPoint, null))
+                using (var result = _client.PostAsync(EndPoint.Replace("[and]", "&"), null))
                 {
                     return result.Result.Content.ReadAsStringAsync().Result;
                 };
