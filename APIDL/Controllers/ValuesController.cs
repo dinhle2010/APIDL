@@ -48,7 +48,7 @@ namespace APIDL.Controllers
             {
                 //objPolo.init();
                 HttpClient _client = new HttpClient();
-                _client.DefaultRequestHeaders.Add("key", objPolo.Key);
+                _client.DefaultRequestHeaders.Add("Key", objPolo.Key);
                 _client.DefaultRequestHeaders.Add("Sign", objPolo.Sign);
 
                 using (var result = _client.PostAsync(objPolo.EndPoint, null))
