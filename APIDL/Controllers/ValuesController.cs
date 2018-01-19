@@ -42,11 +42,11 @@ namespace APIDL.Controllers
 
         // POST api/values
         [HttpPost]
-        public string Post(PoloParam objPolo)
+        public string Post([FromBody]PoloParam objPolo)
         {
             try
             {
-                objPolo.init();
+                //objPolo.init();
                 HttpClient _client = new HttpClient();
                 _client.DefaultRequestHeaders.Add("key", objPolo.Key);
                 _client.DefaultRequestHeaders.Add("Sign", objPolo.Sign);
@@ -78,12 +78,7 @@ namespace APIDL.Controllers
     {
         public string EndPoint { get; set; }
         public string Key { get; set; }
-        public string Sign { get; set; }
-        Dictionary<string, object> Param { get; set; }
-        public void init()
-        {
-            Sign = PoloHelper.MD5Hash(Sign);
-        }
+        public string Sign { get; set; }       
     }
     public static class PoloHelper
     {

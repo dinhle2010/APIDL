@@ -18,4 +18,3 @@ D:\Research\APIDL\APIDL\obj\Debug\netcoreapp2.0\APIDL.AssemblyInfoInputs.cache
 D:\Research\APIDL\APIDL\obj\Debug\netcoreapp2.0\APIDL.AssemblyInfo.cs
 D:\Research\APIDL\APIDL\obj\Debug\netcoreapp2.0\APIDL.dll
 D:\Research\APIDL\APIDL\obj\Debug\netcoreapp2.0\APIDL.pdb
-D:\Research\APIDL\APIDL\obj\Debug\netcoreapp2.0\APIDL.csprojResolveAssemblyReference.cache
