@@ -8,3 +8,4 @@ D:\Research\APIDL\APIDL\obj\Any CPU\Release\netcoreapp2.0\APIDL.AssemblyInfoInpu
 D:\Research\APIDL\APIDL\obj\Any CPU\Release\netcoreapp2.0\APIDL.AssemblyInfo.cs
 D:\Research\APIDL\APIDL\obj\Any CPU\Release\netcoreapp2.0\APIDL.dll
 D:\Research\APIDL\APIDL\obj\Any CPU\Release\netcoreapp2.0\APIDL.pdb
+D:\Research\APIDL\APIDL\obj\Any CPU\Release\netcoreapp2.0\APIDL.csprojResolveAssemblyReference.cache
