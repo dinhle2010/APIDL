@@ -14,7 +14,19 @@ namespace APIDL
     {
         public static void Main(string[] args)
         {
-            BuildWebHost(args).Run();
+           var config = new ConfigurationBuilder()
+          .AddJsonFile("hosting.json", optional: false)
+          .Build();
+
+            var host = new WebHostBuilder()
+             .UseConfiguration(config)
+             .UseKestrel()
+             .UseStartup<Startup>()
+             .Build();
+
+            host.Run();
+
+            //BuildWebHost(args).Run();
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
